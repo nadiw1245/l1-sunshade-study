@@ -1,0 +1,10 @@
+[project]
+name = "l1-sunshade-study"
+version = "1.0.0"
+description = "Physics-based study of a space sunshade near the Sun-Earth L1 point"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "matplotlib", "plotly", "streamlit", "jupyter", "nbconvert", "pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
